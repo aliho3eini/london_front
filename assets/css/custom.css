@@ -454,6 +454,42 @@ section{
 
 @media only screen and (max-width: 767px) {
    
+
+/* slider 2 */
+
+
+.slider2 > .subject{
+    top: 2px;
+    position: relative;
+}
+
+.slider2 > .subject > h1{
+    font-size: 17px !important;
+     line-height: 1;
+      font-weight: 600;
+}
+.slider2-content {
+    background: rgba(0, 0, 0, 0.34);
+width: 308px;
+font-size: 12px;
+line-height: 20px;
+padding: 3px 9px;
+border-radius: 7px;
+position: relative;
+top: 0px;
+left: -16px;
+}
+
+.slider2 > .slider-element-right
+{
+    display:none;
+   
+}
+
+
+/* slider 2 */
+
+    
     .header-area {
        border-radius: 0 !important;
         background: white !important;
