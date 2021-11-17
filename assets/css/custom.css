@@ -5,13 +5,31 @@ html,body{
 body{
     margin: auto !important;
     /* max-width: 1440px !important; */
-    max-width: 1640px !important;
+    /* max-width: 1700px !important; */
 
 }
 
-.container{
+header.header-sticky {
+    position: absolute;
+    top: 0;
+    z-index: 20;
+    width: 100%;
+}
+
+.header-area {
+    border-bottom-left-radius: 39px !important;
+    border-bottom-right-radius: 39px !important;
+    background: white !important;
+}
+
+/* .inner-header {
+   
+    width: auto !important;
+} */
+
+/* .container{
     padding-left: 0 !important;
-}
+} */
 
 .header.header-sticky {
     height: 100px !important;
@@ -20,7 +38,7 @@ body{
 
 .swiper-header{
     width: 100% !important;
-    height:461px !important;
+    height: 600px !important;
     margin-left: auto;
     margin-right: auto;
     position: relative;
@@ -85,19 +103,82 @@ body{
 }
 
 .testimonial-content {
-    width: 417px;
+    width: 540px;
     background: rgba(255, 255, 255, 0.26);
     border-radius: 12px;
     padding: 20px !important;
     text-align: left;
-    top: 56px;
+    top: 135px;
     position: relative;
+    left: 71px;
+}
+
+.testimonial-content > h2{
+        font-size: 44px;
+            line-height: 1.4;
+            font-weight: 500 !important;
 }
 
 
 .testimonial-overlay{
     position: absolute;
     background: rgba(103, 34, 97, 0.26);
+    height: 100%;
+    width: 100%;
+    left: 0;
+    z-index: 0;
+}
+
+.slider2 > .subject{
+    top: 46px;
+    position: relative;
+}
+
+.slider2 > .subject > h1{
+    font-size: 49px !important;
+     line-height: 1;
+      font-weight: 600;
+}
+.slider2-content {
+    background: rgba(0, 0, 0, 0.34);
+    width: 648px;
+    font-size: 23px;
+    line-height: 37px;
+    padding: 25px 20px;
+    border-radius: 22px;
+    position: relative;
+    top: 139px;
+    left: 60px;
+}
+
+.slider2 > .slider-element-right
+{
+    position: absolute;
+    right: -82px;
+    top: 83px;
+}
+
+.slider-element-right > .elm{
+    position: relative;
+    width: 418px;
+    display: flex;
+    padding: 13px 11px;
+    margin: 20px 0;
+    height: 96px;
+    border-radius: 12px;
+    background: rgba(0, 0, 0, 0.34);
+}
+
+ .elm > .text > p{
+    display:block;
+    height: 10px;
+    font-size: 20px;
+    margin-left: 18px;
+}
+
+.slider2-overlay{
+    position: absolute;
+    background: rgba(130, 219, 35, 0.36);
     height: 100%;
     width: 100%;
     left: 0;
@@ -113,16 +194,17 @@ body{
 }
 
 .author-info {
-    width: 302px;
+    width: 402px;
     text-align: left;
     padding-left: 14px;
     position: relative;
-    top: 63px;
+    top: 150px;
+    left: 80px;
 }
 
 .author-info > p{
     color:white;
-    font-size: 18px;
+    font-size: 26px;
 }
 
 .primary-color{
@@ -349,6 +431,11 @@ section{
     margin:70px 0 ;
 }
 
+#slider{
+    position: relative;
+    top: 83px;
+}
+
 
 
 .reasone-card {
@@ -367,6 +454,15 @@ section{
 
 @media only screen and (max-width: 767px) {
    
+    .header-area {
+       border-radius: 0 !important;
+        background: white !important;
+        padding: 0 37px;
+    }
+    
+    .footer-info {
+        margin: 30px 0 50px;
+    }
     .swiper-logo-img {
         width: 94px;
         height: 25px;
@@ -415,6 +511,7 @@ section{
 
     #slider{
         margin:0px;
+       
     }
 
     .header.header-sticky {

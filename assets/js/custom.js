@@ -3,13 +3,13 @@ $(document).ready(function() {
 
     const swiper = new Swiper('.swiper-header', {
         // Optional parameters
-        loop: true,
+        // loop: true,
         slidesPerView: 1,
-        speed: 700,
-        autoplay: {
-        waitForTransition: true,
-        disableOnInteraction: false,
-        },
+        // speed: 700,
+        // autoplay: {
+        // waitForTransition: true,
+        // disableOnInteraction: false,
+        // },
         // If we need pagination
         pagination: {
           el: '.swiper-pagination',
