@@ -19,7 +19,7 @@ header.header-sticky {
 .header-area {
     border-bottom-left-radius: 39px !important;
     border-bottom-right-radius: 39px !important;
-    background: white !important;
+    background: rgb(255, 255, 255) !important;
 }
 
 /* .inner-header {
@@ -545,6 +545,225 @@ section{
 
 
 
+/*start -- contact*/
+
+#contact-header{
+    margin-top: 130px !important;
+    margin-bottom: 10px;
+}
+#contact-header > .top-header{
+    position: relative;
+}
+#contact-header > .top-header > .content{
+    position: absolute;
+    top: 40px;
+    text-align: center;
+    width: 100%;
+}
+
+#contact-header > .top-header > img{
+    width: 100%;    
+    max-height: 600px;
+}
+
+
+.top-header > .content > .title{
+    font-size: 45px;
+    color: #672261 !important;
+    margin-top: 80px;
+    font-weight: 600;
+}
+
+.top-header > .content > .description{
+    font-size: 29px;
+    color: black;
+    font-weight:600;
+    margin-top: 80px;
+    font-weight: 600;
+}
+
+
+
+/* form */
+
+.contact-form{
+
+    background-color: #E5E5E5;
+}
+
+input[type=text].contact {
+    height: 60px;
+    border-radius: 21px;
+    border:1px solid #707070;
+}
+
+textarea.contact {
+    border-radius: 25px;
+    border:1px solid #707070;
+}
+
+.contact-submit{
+    background-color:#672261;
+    border-radius:26px;
+    height:80px;
+    width:220px;
+    font-size: 34px;
+}
+/*end --  contact*/
+
+
+/*start blog */
+.btn-cool{
+    background: #EEDBEC;
+    border-radius: 21px;
+    height: 81px;
+    width: 365px;
+    border: none;
+    margin-top: 46px;
+    font-weight: 700;
+    box-shadow: 0 0 8px #a3a3a3;
+    font-size: 20px;
+}
+
+.post-read-more{
+    color: #82DB23;
+    border: 1px solid #000;
+    border-radius: 11px;
+    padding: 6px 22px;
+}
+
+
+.blog-footer > .date{
+    font-size: 15px;
+    margin-top: 2px;
+}
+
+ .star{
+    height:17px;
+}
+.post{
+    border: 1px solid #707070;
+}
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #C2C2C2;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+.dot.active{
+    background-color: #645D5D;
+    border: 1px solid #645D5D;
+}
+
+.quick-quote-form{
+    padding: 0 76px;
+    margin-top: 170px;
+}
+
+.quick-quote-form > .back{
+    background-color: #82DB23;
+    transform: rotate(-7deg);
+    height: 663px;
+    z-index: 1;
+    position: relative;
+    border-radius: 32px;
+    
+}
+
+.front-form-quote{
+    position:relative;
+    top: -20px;
+    transform: rotate(7deg);
+    border-radius: 32px;
+    z-index: 2;
+    height:100%;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(190,119,184,1) 0%, rgba(3,206,114,1) 0%, rgba(19,94,122,1) 0%, rgba(190,119,184,1) 0%, rgba(63,34,61,1) 100%);
+
+}
+
+.front-form-quote > .title{
+    text-align:center;
+    position:relative;
+    top: 38px;
+    color: white;
+    text-shadow: 1px 1px ;
+    font-size:40px;
+}
+
+input[type=text].quote {
+    height: 60px;
+    border:1px solid #707070;
+}
+.send-quote-form{
+    position:absolute;
+    right:45px;
+    bottom:1px;
+    background:transparent;
+    border:none;
+}
+/* blog */
+
+
+/*start panel */
+
+#panel{
+    margin: 200px 19px 19px;
+    background-color:#EBE8E8 ;
+    border-radius: 20px;
+}
+
+.user-info{
+padding: 40px 60px;
+}
+
+#user-profile{
+    padding: 20px 0 30px;
+    border-radius: 81px;
+    border:none;
+}
+
+.profile-list > li > a{
+    background-color: #F0FFE1;
+    color: black;
+    border: none;
+    box-shadow: 0px 0px 5px 0px rgb(211, 211, 211);
+    width:200px;
+    border-radius: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.profile-calendar{
+    height:200px;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 40px;
+}
+
+/* .profile-calendar > .head{
+    display: block;
+    text-align: center;
+} */
+
+/* .profile-calendar > .head > a{
+   font-size: 18px;
+   margin:  0 4px;
+} */
+
+.profile-calendar > .days{
+    margin: 0 auto;
+    display: block ruby;
+}
+
+.calendar > thead > tr > td{
+padding: 0 10px;
+font-weight: bold;
+}
+
+/*end panel */
 
 
 
